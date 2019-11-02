@@ -5,7 +5,7 @@ use bamazon;
 create table products (
     itemid Integer auto_increment NOT NULL,
     productname varchar(45) NOT NULL,
-    departmentName varchar(30) NOT NULL,
+    departmentname varchar(30) NOT NULL,
     price decimal (5,2) NOT NULL,
     quantity Integer(10) NOT NULL,
     primary key(itemid) 
